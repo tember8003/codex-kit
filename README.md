@@ -15,7 +15,7 @@ Codex로 시간 제한이 있는 개발 과제를 수행할 때 쓰는 작업 �
 작업 공간 터미널에서 실행한다.
 
 ```
-git clone https://github.com/<계정>/codex-kit /tmp/codex-kit
+git clone https://github.com/tember8003/codex-kit /tmp/codex-kit
 mkdir -p ~/.codex && cp /tmp/codex-kit/AGENTS.md ~/.codex/AGENTS.md
 ```
 
@@ -24,10 +24,10 @@ mkdir -p ~/.codex && cp /tmp/codex-kit/AGENTS.md ~/.codex/AGENTS.md
 스킬은 Codex 안에서 설치한 뒤 Codex를 다시 시작한다.
 
 ```
-$skill-installer install https://github.com/<계정>/codex-kit/tree/main/skills/task-kickoff
-$skill-installer install https://github.com/<계정>/codex-kit/tree/main/skills/verify-before-done
-$skill-installer install https://github.com/<계정>/codex-kit/tree/main/skills/submission-docs
-$skill-installer install https://github.com/<계정>/codex-kit/tree/main/skills/explain-my-work
+$skill-installer install https://github.com/tember8003/codex-kit/tree/main/skills/task-kickoff
+$skill-installer install https://github.com/tember8003/codex-kit/tree/main/skills/verify-before-done
+$skill-installer install https://github.com/tember8003/codex-kit/tree/main/skills/submission-docs
+$skill-installer install https://github.com/tember8003/codex-kit/tree/main/skills/explain-my-work
 ```
 
 `$skill-installer`를 쓸 수 없으면 `cp -r /tmp/codex-kit/skills/* ~/.codex/skills/`로 복사한다.
